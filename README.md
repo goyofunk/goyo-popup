@@ -1,29 +1,31 @@
 # Goyo Popup
 
-A WordPress popup plugin with a Korean default interface and English (en_US) translations.
+한국어를 기본 인터페이스로 제공하며 영어(en_US) 번역을 지원하는 워드프레스 팝업 플러그인입니다.
 
-## Features
+## 주요 기능
 
-- Image, high-resolution image, and text-only popups.
-- Desktop/mobile targeting, page targeting, and publication schedules.
-- Popup ordering, preview, positioning, shadows, and overlay settings.
-- Daily dismissal based on the WordPress site timezone.
+- 이미지, 고해상도 이미지 및 텍스트 전용 팝업.
+- 데스크톱/모바일 타겟팅, 페이지 타겟팅 및 게시 일정.
+- 팝업 순서, 미리보기, 위치, 그림자 및 오버레이 설정.
+- 오늘 하루 보지 않기, 노출 잠깐 숨기기 설정
+- 한국어 / 영어 지원
+- 워드프레스 관리자에서 설정한 시간대를 기준으로 합니다.
 
-## Installation
+## 설치 방법
 
-1. Place this directory at `wp-content/plugins/goyo-popup/`.
-2. Activate **Goyo Popup** in WordPress.
-3. Open **팝업창 / Popups** in the administration menu.
+1. 이 디렉터리를 `wp-content/plugins/goyo-popup/` 경로에 복사합니다.
+2. 워드프레스 관리자에서 **Goyo Popup** 플러그인을 활성화합니다.
+3. 관리자 메뉴에서 **팝업창 / Popups**를 엽니다.
 
-The entry file is `goyo-popup.php`. Keep the folder name `goyo-popup` when creating an installation ZIP.
+플러그인 시작 파일은 `goyo-popup.php`입니다. 설치용 ZIP 파일을 만들 때 디렉터리 이름은 `goyo-popup`으로 유지하세요.
 
 
-## Translation
+## 번역 설정
 
-- `languages/goyo-popup.pot`: translation template.
-- `languages/goyo-popup-en_US.po`: editable English translations.
-- `languages/goyo-popup-en_US.mo`: compiled English translations loaded by WordPress.
+- `languages/goyo-popup.pot`: 번역 원본 템플릿입니다.
+- `languages/goyo-popup-en_US.po`: 영어 번역을 편집하는 파일입니다.
+- `languages/goyo-popup-en_US.mo`: 워드프레스에서 불러오는 컴파일된 영어 번역 파일입니다.
 
-Select English (United States) in WordPress's site language or user language settings. The Korean source strings remain the fallback. After editing the PO file, regenerate the MO file with a gettext-compatible translation editor, keeping the `goyo-popup-en_US` filename.
+워드프레스의 사이트 언어 또는 사용자 언어 설정에서 영어(미국)를 선택하세요. 번역이 없는 문자열은 한국어 원문으로 표시됩니다. PO 파일을 편집한 뒤에는 gettext 호환 번역 편집기로 MO 파일을 다시 생성하고, 파일 이름은 `goyo-popup-en_US`로 유지하세요.
 
 
