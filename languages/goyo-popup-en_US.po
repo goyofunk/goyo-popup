@@ -1,0 +1,417 @@
+# English translations for Goyo Popup.
+msgid ""
+msgstr "Project-Id-Version: Goyo Popup 1.0.0\nLanguage: en_US\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "0 - 투명, 기본값 0, 100 - 불투명"
+msgstr "0 - transparent, default 0, 100 - opaque"
+
+msgid "10월"
+msgstr "Oct"
+
+msgid "11월"
+msgstr "Nov"
+
+msgid "12월"
+msgstr "Dec"
+
+msgid "1월"
+msgstr "Jan"
+
+msgid "2배"
+msgstr "2x"
+
+msgid "2월"
+msgstr "Feb"
+
+msgid "3월"
+msgstr "Mar"
+
+msgid "4월"
+msgstr "Apr"
+
+msgid "5월"
+msgstr "May"
+
+msgid "6월"
+msgstr "Jun"
+
+msgid "7월"
+msgstr "Jul"
+
+msgid "8월"
+msgstr "Aug"
+
+msgid "9월"
+msgstr "Sep"
+
+msgid "Drag&Drop 을 통해 팝업의 노출 순서를 수정할 수 있습니다."
+msgstr "Drag&Drop to change the popup display order."
+
+msgid "X축"
+msgstr "X axis"
+
+msgid "Y축"
+msgstr "Y axis"
+
+msgid "[ 기본값 0.2 ]"
+msgstr "[ Default 0.2 ]"
+
+msgid "[ 기본값 25 ]"
+msgstr "[ Default 25 ]"
+
+msgid "[ 기본값 5 ]"
+msgstr "[ Default 5 ]"
+
+msgid "[ 기본값 50px ]"
+msgstr "[ Default 50px ]"
+
+msgid "가로"
+msgstr "Width"
+
+msgid "게시 예정 ("
+msgstr "Scheduled ("
+
+msgid "게시 중지"
+msgstr "Inactive"
+
+msgid "게시 중지 ("
+msgstr "Inactive ("
+
+msgid "게시중 ("
+msgstr "Published ("
+
+msgid "고급설정"
+msgstr "Advanced settings"
+
+msgid "그림자 미리보기"
+msgstr "Shadow preview"
+
+msgid "그림자 색상"
+msgstr "Shadow color"
+
+msgid "그림자 크기"
+msgstr "Shadow size"
+
+msgid "그림자 투명도"
+msgstr "Shadow opacity"
+
+msgid "그림자 활성화"
+msgstr "Enable shadow"
+
+msgid "글자 배경 색상"
+msgstr "Text background color"
+
+msgid "글자 배경 색상 변경"
+msgstr "Change text background color"
+
+msgid "글자 색상 변경"
+msgstr "Change text color"
+
+msgid "금"
+msgstr "Fri"
+
+msgid "기간종료"
+msgstr "Expired"
+
+msgid "기본 이미지 등록"
+msgstr "Main image"
+
+msgid "기본 이미지를 선택하거나 텍스트를 입력해주세요."
+msgstr "Select a main image or enter text."
+
+msgid "내용"
+msgstr "Content"
+
+msgid "내용 없음"
+msgstr "No content"
+
+msgid "내용색"
+msgstr "Content color"
+
+msgid "내용을 입력하세요."
+msgstr "Enter content."
+
+msgid "년"
+msgstr "Year"
+
+msgid "노출 활성화"
+msgstr "Enable popup"
+
+msgid "다음 달"
+msgstr "Next month"
+
+msgid "닫기"
+msgstr "Close"
+
+msgid "목"
+msgstr "Thu"
+
+msgid "미리보기"
+msgstr "Preview"
+
+msgid "배경색"
+msgstr "Background color"
+
+msgid "보더색"
+msgstr "Border color"
+
+msgid "보더폭"
+msgstr "Border width"
+
+msgid "보안 검증에 실패했습니다."
+msgstr "Security verification failed."
+
+msgid "뷰포트 너비 820px 이하에서는 이 설정과 관계없이 항상 화면 중앙에 표시됩니다."
+msgstr "At viewport widths of 820px or less, popups are always centered regardless of this setting."
+
+msgid "사이즈"
+msgstr "size"
+
+msgid "삭제"
+msgstr "Delete"
+
+msgid "삭제 중 오류가 발생했습니다."
+msgstr "An error occurred while deleting."
+
+msgid "삭제되었습니다"
+msgstr "Deleted."
+
+msgid "삭제하기"
+msgstr "Delete"
+
+msgid "상단 여백"
+msgstr "Top offset"
+
+msgid "새 팝업 등록하기"
+msgstr "Add a new popup"
+
+msgid "새창으로 링크 열기"
+msgstr "Open link in a new window"
+
+msgid "색상 선택"
+msgstr "Choose a color"
+
+msgid "선택사항 : Retina Display"
+msgstr "Optional: Retina display"
+
+msgid "설정 초기화"
+msgstr "Reset settings"
+
+msgid "설정을 저장하시겠습니까?"
+msgstr "Save the settings?"
+
+msgid "설정을 초기화 하시겠습니까?"
+msgstr "Reset the settings?"
+
+msgid "설정을 취소하시겠습니까?"
+msgstr "Discard the changes?"
+
+msgid "설정이 저장되었습니다"
+msgstr "Settings saved."
+
+msgid "세로"
+msgstr "Height"
+
+msgid "센터"
+msgstr "Center"
+
+msgid "수"
+msgstr "Wed"
+
+msgid "수정"
+msgstr "Edit"
+
+msgid "시간"
+msgstr "Time"
+
+msgid "오늘 하루 보지 않음"
+msgstr "Don't show again today"
+
+msgid "오늘하루 보지 않음 배경 색상"
+msgstr "Daily dismissal background color"
+
+msgid "오늘하루보지않음, X 닫기"
+msgstr "Don't show again today, X Close"
+
+msgid "오버레이 영역"
+msgstr "Overlay area"
+
+msgid "오버레이 영역 조정"
+msgstr "Overlay settings"
+
+msgid "왼쪽"
+msgstr "Left"
+
+msgid "월"
+msgstr "Mon"
+
+msgid "위"
+msgstr "Top"
+
+msgid "이 작업을 할 권한이 없습니다."
+msgstr "You do not have permission to perform this action."
+
+msgid "이 페이지를 볼 권한이 없습니다."
+msgstr "You do not have permission to view this page."
+
+msgid "이미지 등록"
+msgstr "image"
+
+msgid "이미지 추가"
+msgstr "Add image"
+
+msgid "이전 달"
+msgstr "Previous month"
+
+msgid "일"
+msgstr "Sun"
+
+msgid "잘못된 접근입니다"
+msgstr "Invalid request."
+
+msgid "잘못된 접근입니다."
+msgstr "Invalid request."
+
+msgid "저장"
+msgstr "Save"
+
+msgid "저장 요청 처리 중 오류가 발생했습니다."
+msgstr "An error occurred while saving."
+
+msgid "저장 요청 처리 중 오류가 발생했습니다. 페이지를 새로고침한 뒤 다시 시도해 주세요."
+msgstr "An error occurred while saving. Refresh the page and try again."
+
+msgid "저장 중 오류가 발생했습니다."
+msgstr "An error occurred while saving."
+
+msgid "저장되었습니다."
+msgstr "Saved."
+
+msgid "저장에 실패했습니다."
+msgstr "Failed to save."
+
+msgid "저장하기"
+msgstr "Save"
+
+msgid "제목"
+msgstr "Title"
+
+msgid "제목 또는 내용을 입력해주세요."
+msgstr "Enter a title or content."
+
+msgid "제목 없음"
+msgstr "Untitled"
+
+msgid "제목색"
+msgstr "Title color"
+
+msgid "제목을 입력하세요."
+msgstr "Enter a title."
+
+msgid "좌측 여백"
+msgstr "Left offset"
+
+msgid "취소"
+msgstr "Cancel"
+
+msgid "취소하기"
+msgstr "Cancel"
+
+msgid "텍스트 팝업 입력"
+msgstr "Text popup"
+
+msgid "텍스트만 넣기"
+msgstr "Add text only"
+
+msgid "토"
+msgstr "Sat"
+
+msgid "투명도 조정"
+msgstr "Adjust opacity"
+
+msgid "팝업 게시 마감 기간을 설정해주세요"
+msgstr "Set the popup end date"
+
+msgid "팝업 게시 시작 기간을 설정해주세요"
+msgstr "Set the popup start date"
+
+msgid "팝업 게시기간 설정"
+msgstr "Popup schedule"
+
+msgid "팝업 게시기간을 설정해주세요."
+msgstr "Set the popup schedule."
+
+msgid "팝업 공통 설정"
+msgstr "General popup settings"
+
+msgid "팝업 그림자 조정"
+msgstr "Popup shadow settings"
+
+msgid "팝업 노출 여부"
+msgstr "Popup visibility"
+
+msgid "팝업 노출 위치"
+msgstr "Display devices"
+
+msgid "팝업 노출 위치를 선택해주세요."
+msgstr "Select the display devices."
+
+msgid "팝업 리스트"
+msgstr "Popup list"
+
+msgid "팝업 링크"
+msgstr "Popup link"
+
+msgid "팝업 사이즈"
+msgstr "Popup size"
+
+msgid "팝업 설정"
+msgstr "Popup settings"
+
+msgid "팝업 수정하기"
+msgstr "Edit popup"
+
+msgid "팝업 위치 조정"
+msgstr "Adjust popup position"
+
+msgid "팝업 위치 지정"
+msgstr "Popup position"
+
+msgid "팝업을 삭제하시겠습니까?"
+msgstr "Delete this popup?"
+
+msgid "팝업을 저장하시겠습니까?"
+msgstr "Save this popup?"
+
+msgid "팝업을 클릭했을 때 이동되는 링크 페이지 URL 주소를 입력해 주세요.  Ex) http://www..co.kr"
+msgstr "Enter the URL to open when the popup is clicked. Example: https://example.com"
+
+msgid "팝업을 특정페이지에 노출"
+msgstr "Show popup on specific pages"
+
+msgid "팝업이 표시될때 백그라운드 오버레이 색상을 선택합니다."
+msgstr "Choose the background overlay color displayed behind popups."
+
+msgid "팝업이 하나일때, 여백값을 입력하지 않으면 화면 중앙에 위치합니다."
+msgstr "A single popup is centered when no offsets are entered."
+
+msgid "팝업창"
+msgstr "Popups"
+
+msgid "팝업추가"
+msgstr "Add popup"
+
+msgid "펼치기/접기"
+msgstr "Expand/collapse"
+
+msgid "항상 노출"
+msgstr "Always display"
+
+msgid "현재"
+msgstr "Now"
+
+msgid "현재 팝업을 노출 시킬 페이지를 검색하여 적용합니다."
+msgstr "Search for and select the pages on which to display this popup."
+
+msgid "화"
+msgstr "Tue"

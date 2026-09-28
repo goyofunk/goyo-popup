@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* **************************************** *
+ * Default
+ * **************************************** */
+/* Default · 슬라이더(slick) 의존 제거됨 — 관련 규칙 삭제 */
+
+/* Font */
+@font-face {
+    font-family: 'goyo-popup-font';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/goyo-font/fonts/goyo-font.woff) format('woff');
+}
+
+
+
+/* **************************************** *
+ * Popups
+ * **************************************** */
+/* basic style */
+#goyo_popup_container {font-family: "Pretendard Variable", Pretendard, 'SF Pro KR', 'SF Pro Text', 'Apple Gothic', 'Malgun Gothic',  'Dotum', sans-serif;}
+#goyo_popup_container a {text-decoration: none;}
+#goyo_popup_container img {object-fit: cover;object-position: center;}
+#goyo_popup_container .goyo_popup_item_content {cursor: move;}
+#goyo_popup_container #goyo_popup_overlay {position: fixed;top: 0px;left: 0px;width: 100%;height: 100%;z-index: 100000;background: #000;opacity: 0.7;display: none;}
+#goyo_popup_container .goyo_popup_item {position: relative;z-index: 100010;line-height: 0; }
+#goyo_popup_container .goyo_popup_item_content {position: relative;}
+#goyo_popup_container .goyo_popup_item_text_only {line-height:1.4;}
+#goyo_popup_container .goyo_popup_text_only_box {display:block;width:300px;min-height:220px;padding:44px 36px;background:#667FFF;border:10px solid #A2DBFF;border-radius:0px;box-sizing:border-box;}
+#goyo_popup_container .goyo_popup_text_only_box h4 {margin:0 0 20px;font-size:clamp(20px, 2.5vw, 26px);line-height:1.42;color:#fff;font-weight:600;word-break:break-word;}
+#goyo_popup_container .goyo_popup_text_only_box p {margin:0;font-size:clamp(14px, 1.5vw, 16px);line-height:1.6;color:#fff;white-space:pre-wrap;word-break:break-word;}
+#goyo_popup_container .goyo_popup_item_content a img {cursor: pointer;}
+#goyo_popup_container .goyo_popup_controller {width: 100%;position: relative;font-size: 0;z-index: 10;}
+#goyo_popup_container .goyo_popup_notoday {display: inline-block;font-weight: normal;}
+#goyo_popup_container .goyo_popup_close {position: absolute;z-index: 20;font-weight: normal;}
+#goyo_popup_container .goyo_popup_close > i {display: block;width: 100%;height: 100%;font-style: normal;text-align: center;background-image: url(../img/g-icon-colse.svg);background-repeat: no-repeat;background-position: center;background-size: 20px 20px;color: transparent;font-size: 0;}
+
+/* PC */
+/*#goyo_popup_container #goyo_popup_pc_cursor {width: 61px;height: 61px;position: absolute;top: 0;left: 0;border: 2px solid #fff;border-radius: 50%;z-index: 99999;pointer-events: none;display: none;}
+#goyo_popup_container #goyo_popup_pc_cursor > span {display: block;width: 100%;height: 100%;font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;font-size: 11px;line-height: 59px;font-weight: normal;text-align: center;color: #fff;}*/
+#goyo_popup_container.pc .goyo_popup_item {position: absolute;top: 0px;left: 0px;display: none;margin:0;}
+#goyo_popup_container.pc .goyo_popup_item.multiple {position: fixed;display: none;}
+#goyo_popup_container.pc .goyo_popup_controller {position: absolute;height: 41px;left: 0;bottom: 0;}
+#goyo_popup_container.pc .goyo_popup_notoday {position:relative;padding: 0 12px;font-size: 14px;line-height: 41px;}
+#goyo_popup_container.pc .goyo_popup_close {width: 41px;height: 41px;}
+#goyo_popup_container.pc .goyo_popup_close > i {font-size: 0;line-height: 41px;}
+#goyo_popup_container.pc .goyo_popup_close > i:after {display: none;}
+
+/* PC popup style1 */
+
+#goyo_popup_container.pc .goyo_popup_item.primary .goyo_popup_controller {background: #000;}
+#goyo_popup_container.pc .goyo_popup_item.primary .goyo_popup_notoday {color: #fff;}
+#goyo_popup_container.pc .goyo_popup_item.primary .goyo_popup_close {right: 0;bottom: 0;}
+#goyo_popup_container.pc .goyo_popup_item.primary .goyo_popup_close > i {color: #fff;}
+#goyo_popup_container.pc .goyo_popup_item.primary .goyo_popup_close > i:after {display: none;}
+
+
+/* Mobile */
+#goyo_popup_container #goyo_popup_mobile_close_all {position: fixed;top: 18px;left: calc(4vw + 5px * 1);z-index: 999999;font-weight: normal;font-size: 14px;line-height: 16px;letter-spacing: -0.05em;color: #fff;display: none;}
+#goyo_popup_container #goyo_popup_mobile_close_all > span {padding-left: 22px;position: relative;}
+#goyo_popup_container #goyo_popup_mobile_close_all > span:before {display: block;width: 16px;height: 16px;position: absolute;left: 0;top: 1px;background-image: url(../img/g-icon-colse.svg);background-repeat: no-repeat;background-position: center;background-size: contain;content: '';}
+
+#goyo_popup_container.mobile .goyo_popup_playground {width: 100%;height: 100%;position: fixed;top: 0;left: 0;padding-top: 50px;z-index: 100000;opacity: 0;visibility: hidden;}
+#goyo_popup_container.mobile .goyo_popup_item.overlapping {position: fixed !important;}
+#goyo_popup_container.mobile .goyo_popup_item {width: 300px;height: 377px;margin-right:10px;}
+#goyo_popup_container.mobile .goyo_popup_item_content {border-radius: 4px 4px 0 0;overflow: hidden;}
+#goyo_popup_container.mobile .goyo_popup_item_text_only {height:auto;}
+#goyo_popup_container.mobile .goyo_popup_item.goyo_popup_item_text_only {width:90vw;max-width:90vw;}
+#goyo_popup_container.mobile .goyo_popup_item_text_only .goyo_popup_item_content {min-height:337px;background:#fff;border-radius:4px 4px 0 0;overflow:auto;}
+#goyo_popup_container.mobile .goyo_popup_item_text_only .goyo_popup_text_only_box {width:100%;min-height:337px;border-radius:0;}
+#goyo_popup_container.mobile img {width: 300px;height: 343px;object-fit: cover;object-position: center;}
+#goyo_popup_container.mobile .goyo_popup_controller {height: 40px;background: #000;border-radius: 0 0 4px 4px;overflow: hidden;}
+#goyo_popup_container.mobile .goyo_popup_notoday {width: calc(100% - 40px * 1);font-size: 14px;text-align: center;line-height: 40px;color: #fff;}
+#goyo_popup_container.mobile .goyo_popup_close {width: 40px;height: 40px;right: 0;bottom: 0;border-left: 1px solid #666;}
+#goyo_popup_container.mobile .goyo_popup_close > i {font-size: 0;line-height: 40px;color: transparent;background-image: url(../img/g-icon-colse.svg);background-repeat: no-repeat;background-position: center;background-size: 20px 20px;}
+@media (max-width:520px) {
+/* 어떤 경우에도 팝업 폭이 320px 을 넘지 않도록 강제 - 이미지/텍스트박스는 aspect-ratio(또는 원본 이미지 비율)로 세로도 함께 축소됨 */
+#goyo_popup_container.mobile .goyo_popup_item {width:90vw;max-width:320px;height:auto;margin-right:0;}
+#goyo_popup_container.mobile.only_one_slide .goyo_popup_item {width:90vw;max-width:320px;height:auto;}
+#goyo_popup_container.mobile .goyo_popup_item.goyo_popup_item_text_only {max-width:320px;}
+#goyo_popup_container.mobile.only_one_slide .goyo_popup_item.goyo_popup_item_text_only {max-width:320px;}
+#goyo_popup_container.mobile img {width:100% !important;max-width:100%;height:auto !important;}
+#goyo_popup_container.mobile .goyo_popup_item_text_only .goyo_popup_item_content {min-height:0;}
+#goyo_popup_container.mobile .goyo_popup_item_text_only .goyo_popup_text_only_box {width:100% !important;max-width:100%;height:auto !important;min-height:0;}
+
+#goyo_popup_container.pc .goyo_popup_item {max-width:320px;height:auto !important;}
+#goyo_popup_container.pc .goyo_popup_item_content img {width:100% !important;max-width:320px !important;height:auto !important;}
+#goyo_popup_container.pc .goyo_popup_text_only_box {width:100% !important;max-width:320px !important;height:auto !important;min-height:0;}
+}
+
+html.mobile body.goyo_popup_scroll_remove {overflow:hidden;}
+#goyo_popup_container.mobile.only_one_slide {position: fixed;display: block;top: 0;left: 0;width: 100%;height: 100%;z-index: 999999;}
+#goyo_popup_container.mobile.only_one_slide #goyo_popup_mobile_close_all {display: block; font-size:0; width:100%; height:100%;top:0; left:0;}
+#goyo_popup_container.mobile.only_one_slide #goyo_popup_mobile_close_all > span:before {font-size:0;}
+#goyo_popup_container.mobile.only_one_slide .goyo_popup_playground {opacity:1;visibility: visible;position: absolute;width: auto;height: auto;z-index: 1000000;}
+#goyo_popup_container.mobile.only_one_slide .goyo_popup_item {margin-right: 0;width: 300px;height: 377px;}
+#goyo_popup_container.mobile.only_one_slide .goyo_popup_item.goyo_popup_item_text_only {width:90vw;max-width:90vw;height:auto;}
+

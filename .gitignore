@@ -1,0 +1,25 @@
+# --- Git 메타데이터 (배포 시 서버에 올리지 말 것; FTP 클라이언트에서도 제외 설정 필요) ---
+.git/
+
+# --- OS ---
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- 에디터·IDE ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- 로그·임시 ---
+*.log
+*.tmp
+*.temp
+
+# --- 환경·비밀 (해당 파일을 쓸 경우) ---
+.env
+.env.*

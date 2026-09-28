@@ -1,0 +1,23 @@
+/*
+ * Font         : GOYO-FONT
+ * License      :
+ * Subset Maker :  (SUMI)
+ * Version      : 1.0.0
+ * description  :
+ */
+
+
+
+
+
+
+
+/* ************************************** *
+ * GOYO-FONT
+ * ************************************** */
+@font-face {
+    font-family:'goyo-font';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/goyo-font/fonts/goyo-font.woff) format('woff');
+}

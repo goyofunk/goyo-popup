@@ -1,0 +1,417 @@
+# Translation template for Goyo Popup.
+msgid ""
+msgstr "Project-Id-Version: Goyo Popup 1.0.0\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "0 - 투명, 기본값 0, 100 - 불투명"
+msgstr ""
+
+msgid "10월"
+msgstr ""
+
+msgid "11월"
+msgstr ""
+
+msgid "12월"
+msgstr ""
+
+msgid "1월"
+msgstr ""
+
+msgid "2배"
+msgstr ""
+
+msgid "2월"
+msgstr ""
+
+msgid "3월"
+msgstr ""
+
+msgid "4월"
+msgstr ""
+
+msgid "5월"
+msgstr ""
+
+msgid "6월"
+msgstr ""
+
+msgid "7월"
+msgstr ""
+
+msgid "8월"
+msgstr ""
+
+msgid "9월"
+msgstr ""
+
+msgid "Drag&Drop 을 통해 팝업의 노출 순서를 수정할 수 있습니다."
+msgstr ""
+
+msgid "X축"
+msgstr ""
+
+msgid "Y축"
+msgstr ""
+
+msgid "[ 기본값 0.2 ]"
+msgstr ""
+
+msgid "[ 기본값 25 ]"
+msgstr ""
+
+msgid "[ 기본값 5 ]"
+msgstr ""
+
+msgid "[ 기본값 50px ]"
+msgstr ""
+
+msgid "가로"
+msgstr ""
+
+msgid "게시 예정 ("
+msgstr ""
+
+msgid "게시 중지"
+msgstr ""
+
+msgid "게시 중지 ("
+msgstr ""
+
+msgid "게시중 ("
+msgstr ""
+
+msgid "고급설정"
+msgstr ""
+
+msgid "그림자 미리보기"
+msgstr ""
+
+msgid "그림자 색상"
+msgstr ""
+
+msgid "그림자 크기"
+msgstr ""
+
+msgid "그림자 투명도"
+msgstr ""
+
+msgid "그림자 활성화"
+msgstr ""
+
+msgid "글자 배경 색상"
+msgstr ""
+
+msgid "글자 배경 색상 변경"
+msgstr ""
+
+msgid "글자 색상 변경"
+msgstr ""
+
+msgid "금"
+msgstr ""
+
+msgid "기간종료"
+msgstr ""
+
+msgid "기본 이미지 등록"
+msgstr ""
+
+msgid "기본 이미지를 선택하거나 텍스트를 입력해주세요."
+msgstr ""
+
+msgid "내용"
+msgstr ""
+
+msgid "내용 없음"
+msgstr ""
+
+msgid "내용색"
+msgstr ""
+
+msgid "내용을 입력하세요."
+msgstr ""
+
+msgid "년"
+msgstr ""
+
+msgid "노출 활성화"
+msgstr ""
+
+msgid "다음 달"
+msgstr ""
+
+msgid "닫기"
+msgstr ""
+
+msgid "목"
+msgstr ""
+
+msgid "미리보기"
+msgstr ""
+
+msgid "배경색"
+msgstr ""
+
+msgid "보더색"
+msgstr ""
+
+msgid "보더폭"
+msgstr ""
+
+msgid "보안 검증에 실패했습니다."
+msgstr ""
+
+msgid "뷰포트 너비 820px 이하에서는 이 설정과 관계없이 항상 화면 중앙에 표시됩니다."
+msgstr ""
+
+msgid "사이즈"
+msgstr ""
+
+msgid "삭제"
+msgstr ""
+
+msgid "삭제 중 오류가 발생했습니다."
+msgstr ""
+
+msgid "삭제되었습니다"
+msgstr ""
+
+msgid "삭제하기"
+msgstr ""
+
+msgid "상단 여백"
+msgstr ""
+
+msgid "새 팝업 등록하기"
+msgstr ""
+
+msgid "새창으로 링크 열기"
+msgstr ""
+
+msgid "색상 선택"
+msgstr ""
+
+msgid "선택사항 : Retina Display"
+msgstr ""
+
+msgid "설정 초기화"
+msgstr ""
+
+msgid "설정을 저장하시겠습니까?"
+msgstr ""
+
+msgid "설정을 초기화 하시겠습니까?"
+msgstr ""
+
+msgid "설정을 취소하시겠습니까?"
+msgstr ""
+
+msgid "설정이 저장되었습니다"
+msgstr ""
+
+msgid "세로"
+msgstr ""
+
+msgid "센터"
+msgstr ""
+
+msgid "수"
+msgstr ""
+
+msgid "수정"
+msgstr ""
+
+msgid "시간"
+msgstr ""
+
+msgid "오늘 하루 보지 않음"
+msgstr ""
+
+msgid "오늘하루 보지 않음 배경 색상"
+msgstr ""
+
+msgid "오늘하루보지않음, X 닫기"
+msgstr ""
+
+msgid "오버레이 영역"
+msgstr ""
+
+msgid "오버레이 영역 조정"
+msgstr ""
+
+msgid "왼쪽"
+msgstr ""
+
+msgid "월"
+msgstr ""
+
+msgid "위"
+msgstr ""
+
+msgid "이 작업을 할 권한이 없습니다."
+msgstr ""
+
+msgid "이 페이지를 볼 권한이 없습니다."
+msgstr ""
+
+msgid "이미지 등록"
+msgstr ""
+
+msgid "이미지 추가"
+msgstr ""
+
+msgid "이전 달"
+msgstr ""
+
+msgid "일"
+msgstr ""
+
+msgid "잘못된 접근입니다"
+msgstr ""
+
+msgid "잘못된 접근입니다."
+msgstr ""
+
+msgid "저장"
+msgstr ""
+
+msgid "저장 요청 처리 중 오류가 발생했습니다."
+msgstr ""
+
+msgid "저장 요청 처리 중 오류가 발생했습니다. 페이지를 새로고침한 뒤 다시 시도해 주세요."
+msgstr ""
+
+msgid "저장 중 오류가 발생했습니다."
+msgstr ""
+
+msgid "저장되었습니다."
+msgstr ""
+
+msgid "저장에 실패했습니다."
+msgstr ""
+
+msgid "저장하기"
+msgstr ""
+
+msgid "제목"
+msgstr ""
+
+msgid "제목 또는 내용을 입력해주세요."
+msgstr ""
+
+msgid "제목 없음"
+msgstr ""
+
+msgid "제목색"
+msgstr ""
+
+msgid "제목을 입력하세요."
+msgstr ""
+
+msgid "좌측 여백"
+msgstr ""
+
+msgid "취소"
+msgstr ""
+
+msgid "취소하기"
+msgstr ""
+
+msgid "텍스트 팝업 입력"
+msgstr ""
+
+msgid "텍스트만 넣기"
+msgstr ""
+
+msgid "토"
+msgstr ""
+
+msgid "투명도 조정"
+msgstr ""
+
+msgid "팝업 게시 마감 기간을 설정해주세요"
+msgstr ""
+
+msgid "팝업 게시 시작 기간을 설정해주세요"
+msgstr ""
+
+msgid "팝업 게시기간 설정"
+msgstr ""
+
+msgid "팝업 게시기간을 설정해주세요."
+msgstr ""
+
+msgid "팝업 공통 설정"
+msgstr ""
+
+msgid "팝업 그림자 조정"
+msgstr ""
+
+msgid "팝업 노출 여부"
+msgstr ""
+
+msgid "팝업 노출 위치"
+msgstr ""
+
+msgid "팝업 노출 위치를 선택해주세요."
+msgstr ""
+
+msgid "팝업 리스트"
+msgstr ""
+
+msgid "팝업 링크"
+msgstr ""
+
+msgid "팝업 사이즈"
+msgstr ""
+
+msgid "팝업 설정"
+msgstr ""
+
+msgid "팝업 수정하기"
+msgstr ""
+
+msgid "팝업 위치 조정"
+msgstr ""
+
+msgid "팝업 위치 지정"
+msgstr ""
+
+msgid "팝업을 삭제하시겠습니까?"
+msgstr ""
+
+msgid "팝업을 저장하시겠습니까?"
+msgstr ""
+
+msgid "팝업을 클릭했을 때 이동되는 링크 페이지 URL 주소를 입력해 주세요.  Ex) http://www..co.kr"
+msgstr ""
+
+msgid "팝업을 특정페이지에 노출"
+msgstr ""
+
+msgid "팝업이 표시될때 백그라운드 오버레이 색상을 선택합니다."
+msgstr ""
+
+msgid "팝업이 하나일때, 여백값을 입력하지 않으면 화면 중앙에 위치합니다."
+msgstr ""
+
+msgid "팝업창"
+msgstr ""
+
+msgid "팝업추가"
+msgstr ""
+
+msgid "펼치기/접기"
+msgstr ""
+
+msgid "항상 노출"
+msgstr ""
+
+msgid "현재"
+msgstr ""
+
+msgid "현재 팝업을 노출 시킬 페이지를 검색하여 적용합니다."
+msgstr ""
+
+msgid "화"
+msgstr ""
