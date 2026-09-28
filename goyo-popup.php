@@ -1,7 +1,7 @@
 <?php defined( 'ABSPATH' ) or die( 'Nothing to see here.' ); // Security (disable direct access).
 /*
  * Plugin Name: Goyo Popup
- * Description: Responsive image and text popups with scheduling and daily dismissal.
+ * Description: 기간 설정과 오늘 하루 숨김 기능을 제공하는 반응형 팝업 플러그인입니다.
  * Version: 2.0
  * Text Domain: goyo-popup
  * Domain Path: /languages

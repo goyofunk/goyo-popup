@@ -415,3 +415,6 @@ msgstr "Search for and select the pages on which to display this popup."
 
 msgid "화"
 msgstr "Tue"
+
+msgid "기간 설정과 오늘 하루 숨김 기능을 제공하는 반응형 팝업 플러그인입니다."
+msgstr "Responsive image and text popups with scheduling and daily dismissal."
