@@ -23,7 +23,7 @@
         <div class="goyo_popup_list_boxWrap col2">
             <div class="goyo_popup_list_box goyo_popup_publish_box">
                 <h2>
-                    <span><?php echo esc_html__( '게시 중 (', 'goyo-popup' ); ?><span class="list_count"><?php printf( '%d', count( $publish_list ) ); ?></span>)</span>
+                    <span><?php echo esc_html__( '게시중 (', 'goyo-popup' ); ?><span class="list_count"><?php printf( '%d', count( $publish_list ) ); ?></span>)</span>
                 </h2>
                 <div class="goyo_popup_item_wrap">
                     <div class="goyo_popup_item add_button">

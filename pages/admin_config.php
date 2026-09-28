@@ -83,21 +83,21 @@ if ( ! isset( $config ) || ! is_array( $config ) ) {
                 <div class="goyo_shadow_grid">
                     <div class="goyo_config_field">
                         <h3><?php echo esc_html__( 'X축', 'goyo-popup' ); ?> <span class="goyo_config_field_hint"><?php echo esc_html__( '[ 기본값 5 ]', 'goyo-popup' ); ?></span></h3>
-                        <label class="goyo_label">
+                        <label class="goyo_label goyo_label_with_unit">
                             <input type="number" name="goyopopup[shadow][x]" class="goyo_form_field" placeholder="5" min="1" max="30" value="<?php printf( '%d', $config[ 'shadow' ][ 'x' ] ); ?>" />
                             <b>px</b>
                         </label>
                     </div><!-- .goyo_config_field -->
                     <div class="goyo_config_field">
                         <h3><?php echo esc_html__( 'Y축', 'goyo-popup' ); ?> <span class="goyo_config_field_hint"><?php echo esc_html__( '[ 기본값 5 ]', 'goyo-popup' ); ?></span></h3>
-                        <label class="goyo_label">
+                        <label class="goyo_label goyo_label_with_unit">
                             <input type="number" name="goyopopup[shadow][y]" class="goyo_form_field" placeholder="5" min="1" max="30" value="<?php printf( '%d', $config[ 'shadow' ][ 'y' ] ); ?>" />
                             <b>px</b>
                         </label>
                     </div><!-- .goyo_config_field -->
                     <div class="goyo_config_field">
                         <h3><?php echo esc_html__( '그림자 크기', 'goyo-popup' ); ?> <span class="goyo_config_field_hint"><?php echo esc_html__( '[ 기본값 25 ]', 'goyo-popup' ); ?></span></h3>
-                        <label class="goyo_label">
+                        <label class="goyo_label goyo_label_with_unit">
                             <input type="number" name="goyopopup[shadow][size]" class="goyo_form_field" placeholder="25" min="1" max="50" value="<?php printf( '%d', $config[ 'shadow' ][ 'size' ] ); ?>" />
                             <b>px</b>
                         </label>

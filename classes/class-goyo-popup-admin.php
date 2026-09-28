@@ -138,7 +138,7 @@ if ( ! class_exists( 'GOYO_Popup_Admin' ) ) {
                 wp_enqueue_style( 'jquery-select2', 'https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css', array(), '4.0.13' );
                 wp_enqueue_style( 'GOYOP-font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', array(), '4.7.0' );
                 wp_enqueue_style( 'GOYOP-popup-show', GOYO_POPUP_URL . '/css/goyo-popup-show.css', null, '1.1.7' );
-                wp_enqueue_style( 'GOYOP-admin-style', GOYO_POPUP_URL . '/css/goyo-popup-admin.css', false, '1.2.1' );
+                wp_enqueue_style( 'GOYOP-admin-style', GOYO_POPUP_URL . '/css/goyo-popup-admin.css', false, '1.2.2' );
 
                 wp_enqueue_media();
                 wp_enqueue_script( 'media-upload' );
@@ -174,7 +174,7 @@ if ( ! class_exists( 'GOYO_Popup_Admin' ) ) {
                 wp_enqueue_style( 'GOYOP-font', GOYO_POPUP_URL . '/css/font.css', array(), '1.0.0' );
                 wp_enqueue_style( 'icheck', GOYO_POPUP_URL . '/css/vendors/icheck/minimal.css', array(), '1.1.0');
                 wp_enqueue_style( 'jquery-colorpicker', GOYO_POPUP_URL . '/css/jquery.minicolors.css', false, '1.0.0' );
-                wp_enqueue_style( 'GOYOP-admin-style', GOYO_POPUP_URL . '/css/goyo-popup-admin.css', false, '1.2.1' );
+                wp_enqueue_style( 'GOYOP-admin-style', GOYO_POPUP_URL . '/css/goyo-popup-admin.css', false, '1.2.2' );
 
                 wp_enqueue_script( 'jQuery-colorpicker', 'https://cdn.jsdelivr.net/npm/@claviska/jquery-minicolors@2.3.6/jquery.minicolors.min.js', array( 'jquery' ), '2.3.6', true );
                 wp_enqueue_script( 'icheck', GOYO_POPUP_URL . '/js/vendors/icheck/icheck.min.js', array( 'jquery' ), '1.0.0', true );
