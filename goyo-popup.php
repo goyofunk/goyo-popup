@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Goyo Popup
  * Description: Responsive image and text popups with scheduling and daily dismissal.
- * Version: 1.0.0
+ * Version: 2.0
  * Text Domain: goyo-popup
  * Domain Path: /languages
  * Author: 고요펑크
